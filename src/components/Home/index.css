@@ -1,0 +1,33 @@
+* {
+  font-family: 'Roboto';
+}
+
+.home-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.width {
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .d-none-lg {
+    display: none;
+  }
+  .home-box-sm {
+    width: 300px;
+    height: 400px;
+  }
+}
+@media (min-width: 576px) {
+  .home-box-sm {
+    display: none;
+  }
+  .home-box {
+    height: 750px;
+    width: 700px;
+  }
+}
